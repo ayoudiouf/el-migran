@@ -1,0 +1,270 @@
+.banniere img{
+    width: 177vh;
+    height: 90vh;
+}
+.sequilfautsavoir{
+    border: 5px solid #37C1BE;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+    margin-bottom: 30px;
+}
+.sequilfautsavoir img{
+    width: 80vh;
+    margin-left: 390px;
+}
+.sequilfautsavoir p{
+    text-align: center;
+    width: 90%;
+    margin-left: 70px;
+}
+.object{
+     /* Dégradé de gauche à droite */
+        background: linear-gradient(to right, #307899, #ffffff);
+}
+
+.valeurdelmigran {
+    display: flex;
+    justify-content: around;
+    margin-bottom: 30px;
+}
+/* #valeur1, #valeur2, #valeur3 {
+    padding: 10px;
+    transition: background-color 0.3s;
+     Transition pour un changement en douceur
+} */
+#valeur1:hover, #valeur2:hover, #valeur3:hover {
+    background-color: #307899; 
+    /* Couleur de fond au survol */
+}
+.textvaleur p {
+    margin: 0;
+}
+  
+.valeurdelmigran img{
+       /* valeur */
+    width: 50vh;
+}
+.valeurdelmigran p{
+    /* valeur */
+ width: 50vh;
+ text-align: center;
+}
+#valeur1{
+    border: 1px solid #307899;
+    box-shadow: 2px 5px 1px #307899;
+    height: 57vh;
+}
+#valeur2{
+    border: 1px solid #307899;
+    box-shadow: 2px 5px 1px #307899;
+    height: 57vh;
+}
+#valeur3 img{
+    border-radius: 10px;
+}
+#valeur3{
+    border: 1px solid #37C1BE;
+    box-shadow: 2px 5px 1px #307899;
+    height: 57vh;
+}
+.strateg{
+    width: 80%;
+    margin: auto;
+    background-color: #307899;
+    margin-bottom: 30px;
+}
+.strateg img{
+    width: 40%;
+    height: 50%;
+}
+.missiontext strong{
+    /* margin-bottom: 30px; */
+    margin-left: 50%;
+    position: relative;
+   bottom: -10px;
+}
+.para p{
+   text-align: center;
+   color: #ffffff;
+   margin-top: 30px; 
+   padding-left: 10px;
+   padding-right: 10px;
+}
+.stra{
+   display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+.straelmigran img{
+    width: 80%;
+    height: 40%;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.straelmigran p{
+    /* font-weight: 700; */
+    width: 100%;
+    text-align: center;
+    
+}
+.straelmigran{
+   box-shadow: 2px solid #307899;
+   border: 5px solid;
+   width: 30%;
+   margin-left: 20px;
+}
+.miss img{
+    width: 90vh;
+    /* height: 50vh; */
+}
+
+.miss{
+    display: flex;
+    /* margin: auto; */
+    margin-bottom: 30px;
+    /* margin-left: 15%; */
+}
+
+.missiontext{
+    background-color: #307899;
+    color: white;
+    /* width: 60%; */
+    border-radius: 20px;
+}
+.missiontext p{
+    /* width: 50%;
+    height: 50%; */
+    /* text-align: center; */
+    text-justify: auto;
+    padding-left: 20px;
+    padding-top: 20px;
+    /* padding-bottom: 20px; */
+    padding-right: 20px;
+}
+.missiontext button{
+    margin-left: 50%;
+   border-radius: 10px;
+   position: relative;
+   top: -10px;
+}
+
+.form {
+    background: #fff;
+    width: 50%;
+    /* border-radius: 15px; */
+    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+    border-radius: 5px;
+    /* max-width: 480px; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    border-top: 5px solid #0e3721;
+  /*   z-index: 1; */
+    animation: bounce 1.5s infinite;
+  }
+  ::-webkit-input-placeholder {
+    font-size: 1.3em;
+  }
+  
+  .title{
+    display: block;
+    font-family: sans-serif;
+    margin: 10px auto 5px;
+    width: 300px;
+  }
+  .termsConditions{
+    margin: 0 auto 5px 80px;
+  }
+  
+  .pageTitle{
+    font-size: 2em;
+    font-weight: bold;
+  }
+  .secondaryTitle{
+    color: grey;
+  }
+  
+  .name {
+    background-color: #ebebeb;
+    color: white;
+  }
+  .name:hover {
+    border-bottom: 5px solid #0e3721;
+    height: 30px;
+    width: 380px;
+    transition: ease 0.5s;
+  }
+  
+  .email {
+    background-color: #ebebeb;
+    height: 2em;
+  }
+  
+  .email:hover {
+    border-bottom: 5px solid #0e3721;
+    height: 30px;
+    width: 380px;
+    transition: ease 0.5s;
+  }
+  
+  .message {
+    background-color: #ebebeb;
+    overflow: hidden;
+    height: 10rem;
+  }
+  
+  .message:hover {
+    border-bottom: 5px solid #0e3721;
+    height: 12em;
+    width: 380px;
+    transition: ease 0.5s;
+  }
+  
+  .formEntry {
+    display: block;
+    margin: 30px auto;
+    min-width: 300px;
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+    transition: all 0.5s ease 0s;
+  }
+  
+  .submit {
+    width: 200px;
+    color: white;
+    background-color: #0e3721;
+    font-size: 20px;
+  }
+  
+  .submit:hover {
+    box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
+    transform: translateY(-3px);
+    width: 300px;
+    border-top: 5px solid #0e3750;
+    border-radius: 0%;
+  }
+  
+  @keyframes bounce {
+    0% {
+      tranform: translate(0, 4px);
+    }
+    50% {
+      transform: translate(0, 8px);
+    }
+  } 
+  .wrapper{
+    margin-bottom: 30px;
+  }
+  .wrapper img {
+   width: 90vh;
+  }
+  .form{
+    position: relative;
+    bottom: 60%;
+  }

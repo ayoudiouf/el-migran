@@ -1,0 +1,50 @@
+.banniere img{
+    width: 100%;
+}
+.objectif{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.objectif img{
+    width: 40%;
+    /* border-top-right-radius: 200px;
+    border-bottom-left-radius: 200px; */
+   position: relative;
+   top: 170px;
+    margin-bottom: 30px;
+}
+.objectif p{
+    background-color: #307899;
+    color: white;
+    width: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+    margin-bottom: 30px;
+}
+.texte1{
+    background-color: #307899;
+    color: white;
+    margin-left: 45%;
+    width: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+    margin-bottom: 30px;
+}
+.texte2{
+    background-color: #307899;
+    color: white;
+    width: 50%;
+    margin-left: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    border-top-right-radius: 90px;
+    border-bottom-left-radius: 90px;
+}

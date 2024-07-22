@@ -1,0 +1,43 @@
+.mere{
+    /* height: 50%; */
+    background-color: rgb(16, 15, 15);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.container{
+    /* background-color: #37C1BE;
+    height: 100%; */
+}
+.menufooter{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    /* list-style: none; */
+    color: white;
+}
+li a{
+   text-decoration: none;
+   color: white;
+}
+li a:hover{
+    
+    color: red;
+ }
+ .companyfooter{
+    background-color: white;
+    border-bottom: 2px solid black;
+ }
+ .log img{
+    width: 30vh;
+    margin-top: 20px;
+ }
+
+ .don p{
+    background-color: whitesmoke;
+    /* box-shadow: #307899; */
+    box-shadow: #307899;
+ }
+ .partenaire img{
+    width: 10px;
+ }
