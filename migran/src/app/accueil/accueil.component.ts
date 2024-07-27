@@ -7,7 +7,7 @@ import { FooterComponent } from '../header-footer/footer/footer.component';
 @Component({
   selector: 'app-accueil',
   standalone: true,
-  imports: [AproposComponent,RouterLink,HeaderComponent,FooterComponent],
+  imports: [RouterLink,HeaderComponent,FooterComponent],
   templateUrl: './accueil.component.html',
   styleUrl: './accueil.component.css'
 })

@@ -1,8 +1,13 @@
 .mere{
     /* height: 50%; */
-    background-color: rgb(16, 15, 15);
+    /* background-color: rgb(16, 15, 15); */
+    background-color: #4c4c54;
     padding-top: 20px;
     padding-bottom: 20px;
+    /* width: 70%; */
+    height: 300px;
+    align-items: center;
+    /* margin-left: 15%;≤n */
 }
 .container{
     /* background-color: #37C1BE;
